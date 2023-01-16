@@ -1,0 +1,11 @@
+[package]
+name = "keccak_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tiny-keccak = { version = "1.4" }
+hex = { version = "0.4.2" }
+curve25519-dalek = { version = "2" }
